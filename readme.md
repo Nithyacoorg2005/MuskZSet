@@ -1,10 +1,5 @@
 # Musk Empire: Real-Time Global Sales Leaderboard (Powered by Redis)
 
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Architecture](https://img.shields.io/badge/Architecture-Event--Driven-blue?style=for-the-badge)
-![Data Structures](https://img.shields.io/badge/Redis-ZSET%20%7C%20HASH%20%7C%20PUB%2FSUB-critical?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-
 A high-throughput, low-latency **Real-Time Sales Leaderboard and Live Order Ticker** tracking simulated global revenue streams across Elon Musk's ecosystem of companies (**Tesla, SpaceX, Starlink, xAI, X Corp, The Boring Company, and Neuralink**).
 
 This project moves beyond basic `GET`/`SET` key-value caching to showcase **Redis as an in-memory, single-threaded atomic data structure engine** capable of ranking, aggregating, and broadcasting thousands of concurrent financial events per second with sub-millisecond latency.
