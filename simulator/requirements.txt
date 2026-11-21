@@ -1,0 +1,4 @@
+redis
+websockets
+yfinance
+requests
